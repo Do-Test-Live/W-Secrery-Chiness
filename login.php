@@ -80,8 +80,8 @@ if (isset($_POST['submit'])){
                         </a>
     
                         <div class="capitalize flex font-semibold hidden lg:block my-2 space-x-3 text-center text-sm">
-                            <a href="login.php" class="py-3 px-4 bg-purple-500 purple-500 rounded-md shadow text-white">Login</a>
-                            <a href="register.php" class="px-6 py-3">Register</a>
+                            <a href="login.php" class="py-3 px-4 bg-purple-500 purple-500 rounded-md shadow text-white">登入</a>
+                            <a href="register.php" class="px-6 py-3">按此註冊</a>
                         </div>
     
                     </div>
@@ -107,13 +107,13 @@ if (isset($_POST['submit'])){
                     }
                     ?>
                     <form class="lg:p-10 p-6 space-y-3 relative bg-white shadow-xl rounded-md" action="#" method="post">
-                        <h1 class="lg:text-2xl text-xl font-semibold mb-6"> Login </h1>
+                        <h1 class="lg:text-2xl text-xl font-semibold mb-6"> 登入 </h1>
                         <div>
-                            <label class="mb-0"> Email Address </label>
+                            <label class="mb-0"> 電郵名稱 </label>
                             <input type="email" name="email" placeholder="Info@example.com" class="bg-gray-100 h-12 mt-2 px-3 rounded-md w-full">
                         </div>
                         <div>
-                            <label class="mb-0"> Password </label>
+                            <label class="mb-0"> 密碼 </label>
                             <input type="password" placeholder="******" name="password" class="bg-gray-100 h-12 mt-2 px-3 rounded-md w-full">
                         </div>
 
@@ -121,9 +121,9 @@ if (isset($_POST['submit'])){
                             <button type="submit" name="submit" class="bg-blue-600 font-semibold p-2 mt-5 rounded-md text-center text-white w-full">
                                 Log In</button>
                         </div>
-                        <p class="flex align-items-center justify-content-center">Forgot your password? <a href="forgot.php">Help</a></p>
+                        <p class="flex align-items-center justify-content-center">忘記密碼 <a href="forgot.php">幫助</a></p>
                     </form>
-                    <p class="flex align-items-center justify-content-center">Don't have an account? <a href="register.php"> Sign Up</a></p>
+                    <p class="flex align-items-center justify-content-center">新用戶？<a href="register.php">按此註冊</a></p>
  
                 </div>
             </div>

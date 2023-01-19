@@ -188,8 +188,8 @@ VALUES ('".$company_name."','".$company_domain."','".$subDomain."','".$salary."'
                 </a>
 
                 <div class="capitalize flex font-semibold hidden lg:block my-2 space-x-3 text-center text-sm">
-                    <a href="login.php" class="py-3 px-4">Login</a>
-                    <a href="register.php" class="bg-purple-500 purple-500 px-6 py-3 rounded-md shadow text-white">Register</a>
+                    <a href="login.php" class="py-3 px-4">登入</a>
+                    <a href="register.php" class="bg-purple-500 purple-500 px-6 py-3 rounded-md shadow text-white">按此註冊</a>
                 </div>
 
             </div>
@@ -229,10 +229,10 @@ VALUES ('".$company_name."','".$company_domain."','".$subDomain."','".$salary."'
             }
             ?>
             <form class="lg:p-10 p-6 space-y-3 relative bg-white shadow-xl rounded-md" action="#" method="post">
-                <h1 class="lg:text-2xl text-xl font-semibold mb-6"> Register </h1>
+                <h1 class="lg:text-2xl text-xl font-semibold mb-6"> 註冊 </h1>
 
                 <div>
-                    <label class="mb-0">Select Your Company Domain </label>
+                    <label class="mb-0">選擇公司域名 </label>
                     <select class="js-example-basic-single" name="c_domain_id">
                         <option value="None">None</option>
                         <?php
@@ -246,36 +246,35 @@ VALUES ('".$company_name."','".$company_domain."','".$subDomain."','".$salary."'
                         }
                         ?>
                     </select>
-                    <p> Can't find your Company Domain?<a href="" data-bs-toggle="modal"
+                    <p> 找不到公司域名？<a href="" data-bs-toggle="modal"
                                                           data-bs-target="#staticBackdrop">
-                            Add Company
+                            新增公司
                         </a></p>
                 </div>
                 <div>
-                    <label class="mb-0"> Nick Name</label>
-                    <input type="text" name="nickname" placeholder="Enter your Nickname" required
+                    <label class="mb-0"> 暱稱</label>
+                    <input type="text" name="nickname" placeholder="暱稱" required
                            class="bg-gray-100 h-12 mt-2 px-3 rounded-md w-full">
                 </div>
                 <div>
-                    <label class="mb-0">Personal Email Address</label>
-                    <input type="email" name="pemail" placeholder="Your Personal Email" required
+                    <label class="mb-0">個人電郵地址</label>
+                    <input type="email" name="pemail" placeholder="個人電郵" required
                            class="bg-gray-100 h-12 mt-2 px-3 rounded-md w-full">
                 </div>
                 <div>
-                    <label class="mb-0">Company Email Address</label>
-                    <input type="email" name="cemail" placeholder="Your Company Email"
+                    <label class="mb-0">公司電郵地址</label>
+                    <input type="email" name="cemail" placeholder="公司電郵"
                            class="bg-gray-100 h-12 mt-2 px-3 rounded-md w-full">
                 </div>
 
                 <div>
                     <button type="submit" name="register"
                             class="bg-blue-600 font-semibold p-2 mt-5 rounded-md text-center text-white w-full">
-                        Get Started
+                        按此開始
                     </button>
                 </div>
             </form>
-            <p class="flex align-items-center justify-content-center">Already have an account? <a href="login.php"> Log
-                    In</a></p>
+            <p class="flex align-items-center justify-content-center">已有帳戶 <a href="login.php"> 登入</a></p>
 
 
         </div>

@@ -128,8 +128,8 @@ if (isset($_POST['resend_email'])) {
                 </a>
 
                 <div class="capitalize flex font-semibold hidden lg:block my-2 space-x-3 text-center text-sm">
-                    <a href="login.php" class="py-3 px-4">Login</a>
-                    <a href="register.php" class="bg-purple-500 purple-500 px-6 py-3 rounded-md shadow text-white">Register</a>
+                    <a href="login.php" class="py-3 px-4">登入</a>
+                    <a href="register.php" class="bg-purple-500 purple-500 px-6 py-3 rounded-md shadow text-white">按此註冊</a>
                 </div>
 
             </div>

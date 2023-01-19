@@ -102,7 +102,7 @@ include("config/dbconfig.php");
 
                     <div class="flex justify-between relative md:mb-4 mb-3">
                         <div class="flex-1">
-                            <h2 class="text-2xl font-semibold"> Trending </h2>
+                            <h2 class="text-2xl font-semibold"> 熱門 </h2>
                         </div>
                     </div>
 
@@ -146,18 +146,18 @@ include("config/dbconfig.php");
                             }
                         } else {
                             ?>
-                            <p class="leading-6 line-clamp-2 mt-3 px-3">No post published yet!</p>
+                            <p class="leading-6 line-clamp-2 mt-3 px-3">還沒有發布任何帖子！</p>
                             <?php
                         }
                         ?>
                     </ul>
 
-                    <a href="all_post.php"><h4 style="margin-top: 20px; font-size: 18px;">View All</h4></a>
+                    <a href="all_post.php"><h4 style="margin-top: 20px; font-size: 18px;">查看全部</h4></a>
 
 
                     <div class="flex justify-between relative md:mb-4 mb-3 mt-5">
                         <div class="flex-1">
-                            <h2 class="text-2xl font-semibold"> Latest </h2>
+                            <h2 class="text-2xl font-semibold"> 最新 </h2>
                         </div>
                     </div>
 
@@ -202,12 +202,12 @@ include("config/dbconfig.php");
                             }
                         } else {
                             ?>
-                            <p class="leading-6 line-clamp-2 mt-3 px-3">No post published yet!</p>
+                            <p class="leading-6 line-clamp-2 mt-3 px-3">還沒有發布任何帖子！</p>
                             <?php
                         }
                         ?>
                     </ul>
-                    <a href="all_post.php"><h4 style="margin-top: 20px; font-size: 18px;">View All</h4></a>
+                    <a href="all_post.php"><h4 style="margin-top: 20px; font-size: 18px;">查看全部</h4></a>
 
                 </div>
 

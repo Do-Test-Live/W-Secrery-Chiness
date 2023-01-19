@@ -30,7 +30,7 @@ if($query->num_rows > 0){
                     <div class="flex mt-3.5 space-x-2 text-sm font-medium">
                         <a href="company_details.php?id=<?php echo $row['id'];?>"
                            class="bg-gray-200 flex flex-1 h-8 items-center justify-center rounded-md capitalize">
-                            View
+                            觀看
                         </a>
                     </div>
 

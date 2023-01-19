@@ -99,7 +99,7 @@ include("config/dbconfig.php");
 
             <div class="flex justify-between relative md:mb-4 mb-3">
                 <div class="flex-1">
-                    <h2 class="text-2xl font-semibold"> Companies </h2>
+                    <h2 class="text-2xl font-semibold"> 公司 </h2>
                 </div>
             </div>
 
@@ -126,7 +126,7 @@ include("config/dbconfig.php");
         <div class="mcontainer">
             <div class="flex justify-between relative md:mb-4 mb-3">
                 <div class="flex-1">
-                    <h2 class="text-2xl font-semibold"> New Companies </h2>
+                    <h2 class="text-2xl font-semibold"> 新公司 </h2>
                 </div>
             </div>
 

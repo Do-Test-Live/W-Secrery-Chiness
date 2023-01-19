@@ -97,21 +97,21 @@ if ($select_user) {
     <!-- Main Contents -->
     <div class="main_content">
         <div class="mx-5 mt-5">
-            <h4>Salary Info</h4>
+            <h4>薪金資訊</h4>
 
             <div class="mt-12">
 
                 <table class="table uk-text-center">
                     <thead>
                     <tr>
-                        <th scope="col">User Name</th>
-                        <th scope="col">Job Rank</th>
-                        <th scope="col">Job Title</th>
-                        <th scope="col">Annual Salary</th>
-                        <th scope="col">Annual Bonus</th>
-                        <th scope="col">Salary Year</th>
-                        <th scope="col">Year of Tenture</th>
-                        <th scope="col">Company</th>
+                        <th scope="col">用戶名稱</th>
+                        <th scope="col">職級</th>
+                        <th scope="col">職位名稱</th>
+                        <th scope="col">年薪</th>
+                        <th scope="col">年終獎金</th>
+                        <th scope="col">工資年度</th>
+                        <th scope="col">創業年度</th>
+                        <th scope="col">公司名稱</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -147,7 +147,7 @@ if ($select_user) {
             <?php
             } else {
                 ?>
-                <p>Nothing added here!</p>
+                <p>這裡沒有添加任何內容！</p>
                 <?php
             }
             ?>

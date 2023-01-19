@@ -94,8 +94,8 @@ if (isset($_POST['submit'])){
                 </a>
 
                 <div class="capitalize flex font-semibold hidden lg:block my-2 space-x-3 text-center text-sm">
-                    <a href="login.php" class="py-3 px-4 bg-purple-500 purple-500 rounded-md shadow text-white">Login</a>
-                    <a href="register.php" class="px-6 py-3">Register</a>
+                    <a href="login.php" class="py-3 px-4 bg-purple-500 purple-500 rounded-md shadow text-white">登入</a>
+                    <a href="register.php" class="px-6 py-3">按此註冊</a>
                 </div>
 
             </div>
@@ -121,15 +121,15 @@ if (isset($_POST['submit'])){
             }
             ?>
             <form class="lg:p-10 p-6 space-y-3 relative bg-white shadow-xl rounded-md" action="#" method="post">
-                <h1 class="lg:text-2xl text-xl font-semibold mb-6"> Verify Your Email </h1>
+                <h1 class="lg:text-2xl text-xl font-semibold mb-6"> 驗證你的電郵 </h1>
                 <div>
-                    <label class="mb-0">Personal Email Address </label>
+                    <label class="mb-0">個人電郵 </label>
                     <input type="email" name="email" placeholder="info@example.com" class="bg-gray-100 h-12 mt-2 px-3 rounded-md w-full">
                 </div>
 
                 <div>
                     <button type="submit" name="submit" class="bg-blue-600 font-semibold p-2 mt-5 rounded-md text-center text-white w-full">
-                        Send Email</button>
+                        寄出電郵</button>
                 </div>
             </form>
 
